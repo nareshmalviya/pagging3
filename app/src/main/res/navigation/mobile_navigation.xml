@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_character">
+
+    <fragment
+        android:id="@+id/navigation_character"
+        android:name="com.codelab.pagging3.ui.charcters.CharctersFragment"
+        android:label="@string/title_character"
+        tools:layout="@layout/fragment_charcters" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_episodes"
+        android:name="com.codelab.pagging3.ui.episode.EpisodeFragment"
+        android:label="@string/title_episodes"
+        tools:layout="@layout/fragment_episode" />
+
+    <fragment
+        android:id="@+id/navigation_location"
+        android:name="com.codelab.pagging3.ui.location.LocationFragment"
+        android:label="@string/title_location"
+        tools:layout="@layout/fragment_location" />
+</navigation>

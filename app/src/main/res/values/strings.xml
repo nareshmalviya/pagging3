@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pagging3</string>
+    <string name="title_character">Character</string>
+    <string name="title_episodes">Episode</string>
+    <string name="title_location">Location</string>
+</resources>
